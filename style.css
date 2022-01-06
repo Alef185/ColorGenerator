@@ -36,6 +36,16 @@ h1{
     font-weight: 900;
     text-transform: uppercase;
     margin-bottom: 1rem;
+    background: linear-gradient(to right, var(--dark) 50%, var(--secondary) 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-position: 0%;
+    background-size: 200%;
+    transition: 0.4s ease-out;
+}
+h1:hover{
+    background-position: 100%;
+    cursor: default;
 }
 p{
     color: var(--grey);
